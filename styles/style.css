@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/verde2.jpg");
+    background-repeat: no-repeat;
+    background-position:unset;
+    position: fixed;
+}
+
+h1{
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: right;
+    margin-right: 120px;
+    margin-top: 55px;
+    
+}
+
+h4 {
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(11, 107, 20);
+    font-size: 22px;
+    text-align:center;
+    margin-right: 10px;
+    margin-left: 615px;
+    padding: 10px;
+    border: inset 2px rgb(45, 161, 45);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+a{
+    width: 3vh;
+    height: 3vh;
+}
+
+
+
+.logo > img{
+    margin-left: 120px;
+    margin-top: 10px;
+
+}
+
+
+.personagens{
+    margin: none;
+    display: flex;
+    flex-direction: row;
+    width: 80px;
+    height: 170px;
+    gap: 10px;
+    margin-left:690px;
+    margin-top: 10px;
+    position: fixed;
+
+}
+
+.botao{
+    font-family:fantasy;
+    font-size: 22px;
+    margin-top: 200px;
+    height: 60px;
+    width: 140px;
+    margin-left: -350px;
+    padding: 10px;
+    border: solid  2px black;
+    background-color: rgb(252, 248, 4);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.name{
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-left: 710px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 314px;
+    background-color: rgba(18, 51, 28, 0.651);
+    color: rgb(255, 255, 255);
+}
+
+#policial, #professora, #medico{
+    border: solid rgb(0, 0, 0);
+    border-radius: 15px;
+}
+
+.botao:hover{
+    border: solid rgb(250, 135, 3);
+}
+
+

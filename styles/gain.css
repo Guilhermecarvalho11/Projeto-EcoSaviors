@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(30, 226, 26, 1);
+    background-image: url("../img/Desktop1.png");
+    margin-top: 640px;
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+}

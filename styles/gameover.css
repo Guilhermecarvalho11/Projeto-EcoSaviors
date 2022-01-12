@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/perdeu.png");
+    background-size: 200px;
+    background-position: center;
+}
